@@ -1,5 +1,6 @@
 package 剑指offer;
 
+//May 16
 public class Num32_CountOfOne {
 
 	//暴力法
