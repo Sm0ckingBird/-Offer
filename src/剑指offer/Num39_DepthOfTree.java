@@ -9,6 +9,27 @@ public class Num39_DepthOfTree {
 			return 0;
 		return Math.max(depth(node.left), depth(node.right)) + 1;
 	}
+	
+	//Plain
+	public static boolean isBalanced(BinaryTreeNode node) {
+		if(node == null)
+			return true;
+		
+		int left = depth(node.left);
+		int right = depth(node.right);
+		
+		if(Math.abs(left - right) <= 1)
+			return isBalanced(node.left) && isBalanced(node.right);
+		else
+			return false;
+	}
+	
+	//Post-Order Traversal
+	public static boolean isBalanced_Post(BinaryTreeNode node, Integer depth) {
+		
+		
+		return false;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,7 +48,7 @@ public class Num39_DepthOfTree {
 		n5.left = n7;
 		n3.right = n6;
 		
-		System.out.println(depth(n1));
+		System.out.println(isBalanced(n1));
 	}
 
 }
