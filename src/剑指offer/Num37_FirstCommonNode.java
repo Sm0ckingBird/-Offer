@@ -14,8 +14,6 @@ public class Num37_FirstCommonNode {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ListNode l1 = new ListNode(1);
-		ListNode l2 = new ListNode(2);
 	}
 
 }
