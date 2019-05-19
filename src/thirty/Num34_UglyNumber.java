@@ -1,4 +1,4 @@
-package 剑指offer;
+package thirty;
 
 public class Num34_UglyNumber {
 	

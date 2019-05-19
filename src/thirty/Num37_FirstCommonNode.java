@@ -1,4 +1,4 @@
-package 剑指offer;
+package thirty;
 import util.ListNode;
 
 public class Num37_FirstCommonNode {

@@ -1,4 +1,4 @@
-package 剑指offer;
+package thirty;
 
 //May 15
 public class Num31_MaxSubArraySum {

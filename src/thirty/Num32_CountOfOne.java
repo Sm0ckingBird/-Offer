@@ -1,4 +1,4 @@
-package 剑指offer;
+package thirty;
 
 //May 16
 public class Num32_CountOfOne {
