@@ -3,7 +3,7 @@ package forty;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Num42_PointsOfNDices {
+public class Num43_PointsOfNDices {
 	
 	//基于递归的代码,时间开销比较大
 	public static void pointsOfNDices_Permutation(int n) {
