@@ -3,6 +3,7 @@ package start;
 public class Num8_MinInRotatedArray {
 	
 	//如果low,high,mid指向的数字是相同的,则只能使用一般方法求解
+	//
 	
 	public static int min(int[] numbers) throws Exception {
 		if(numbers == null || numbers.length == 0)
