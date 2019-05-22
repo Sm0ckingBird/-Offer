@@ -3,6 +3,7 @@ package ten;
 public class Num10_NumOfOnes {
 	
 	//此种方法一定要进行32次循环
+	//
 	public static int numOfOnes(int number) {
 		int count = 0;
 		int flag = 1;
