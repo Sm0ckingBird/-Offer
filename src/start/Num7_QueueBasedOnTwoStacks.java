@@ -4,6 +4,8 @@ import java.util.Stack;
 
 public class Num7_QueueBasedOnTwoStacks {
 	
+	//
+	
 	private static Stack<Integer> left = new Stack<Integer>();
 	private static Stack<Integer> right = new Stack<Integer>();
 	protected static boolean isValid = true;
