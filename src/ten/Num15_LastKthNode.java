@@ -5,7 +5,7 @@ import util.ListNode;
 public class Num15_LastKthNode {
 	
 	public static ListNode LastKthNode(ListNode head, int k) {
-		if(head == null)
+		if(head == null || k <= 0)
 			return null;
 		
 		ListNode explorer = head;
