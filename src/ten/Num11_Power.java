@@ -2,6 +2,8 @@ package ten;
 
 public class Num11_Power {
 	
+	//还有更加高效的result*=result的方法
+	
 	protected static boolean isValid = true;
 	
 	public static double Power(double base, int exponent) {
